@@ -1,0 +1,17 @@
+{
+	"name": "menu-endpoint-v2",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"wp-env": "wp-env"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@wordpress/env": "^10.8.0"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^29.0.0"
+	}
+}
