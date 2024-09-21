@@ -33,7 +33,7 @@ class WP_REST_Public_Menu_Locations_Controller extends WP_REST_Menu_Locations_Co
 			array(
 				'args'   => array(
 					'location' => array(
-						'description' => __( 'An alphanumeric identifier for the menu location.' ),
+						'description' => __( 'An alphanumeric identifier for the menu location.', 'public-menus' ),
 						'type'        => 'string',
 					),
 				),
@@ -70,5 +70,4 @@ class WP_REST_Public_Menu_Locations_Controller extends WP_REST_Menu_Locations_Co
 	public function get_items_permissions_check( $request ) {
 		return true;
 	}
-
 }
